@@ -133,16 +133,22 @@
 // }
 
 // soru4
+
 // let vize1 = 30;
-// let vize2 = 30;
+// let vize2 = 70;
 // let final = 70;
 
-// let ort = (vize1 + vize2 + final)/3;
+// let ort = (vize1 + vize2 + final) / 3;
 
-// if(ort >= 50 && final >= 50){
-//     console.log('geçtiniz')
-// }else if((final = 70 && ort <50)){
-// console.log('geçtiniz :)')
-// }else {
-//     console.log('kaldiniz')
+// if (ort >= 50 && final >= 50) {
+//     console.log('gecti')
+// } else if (final == 70 && ort < 50) {
+//     console.log('gectiniz')
 // }
+// else {
+//     console.log('kaldi')
+// }
+
+// let durum = (ort > 50) ? "gectiniz" : "kaldiniz"
+
+// console.log(durum);
