@@ -1,3 +1,2 @@
 # javascript-methods
 
-esra sümer
