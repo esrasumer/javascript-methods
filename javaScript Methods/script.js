@@ -152,3 +152,54 @@
 // let durum = (ort > 50) ? "gectiniz" : "kaldiniz"
 
 // console.log(durum);
+
+// function gizleGöster(id) {
+
+//     let secId = document.getElementById(id);
+
+//     if (secId.style.display == 'none') {
+//         secId.style.display == ' '
+//     } else {
+//         secId.style.display = "none"
+//     }
+// }
+
+// function resimDegistir(id) {
+//     let res = document.getElementById('resim')
+
+//     if (id == 1) {
+//         res.src = "eight.png.jpg"
+//     } else if (id == 2) {
+//         res.src = "six.png.jpg"
+//     } else if (id == 3) {
+//         res.src = "two.png.jpg"
+//     }
+// }
+
+//str kaç kelimeden oluşur? +++
+
+//url https ile mi başlıyor? +++
+
+//str içerisinde backend kelimesi var mı? +++
+
+//url ve str değişkenlerini kullanarak aşağıdaki string bilgiyi oluşturunuz +++
+
+// https://www.esrasumer.com/frontend-web-developer
+
+let url = 'https://www.esrasumer.com/'
+
+let str = 'Frontend Web Developer'
+
+url.split('').length // -----
+
+str.split(' ').length // -----
+
+url.indexOf('https')=== 0 ? 'https ile başlıyor' : 'https ile başlamıyor' // :D
+
+str.indexOf('backend') === -1 ? 'yok' :  'var' // :D
+
+let arr1 = str.split(' ').join('-').toLocaleLowerCase()
+let arr2 = url.split(' ')
+let arr3 = arr2.concat(arr1)
+
+arr3.join('') // :D
