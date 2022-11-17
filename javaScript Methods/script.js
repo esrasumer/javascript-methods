@@ -186,20 +186,36 @@
 
 // https://www.esrasumer.com/frontend-web-developer
 
-let url = 'https://www.esrasumer.com/'
+// let url = 'https://www.esrasumer.com/'
 
-let str = 'Frontend Web Developer'
+// let str = 'Frontend Web Developer'
 
-url.split('').length // -----
+// url.split('').length // -----
 
-str.split(' ').length // -----
+// str.split(' ').length // -----
 
-url.indexOf('https')=== 0 ? 'https ile başlıyor' : 'https ile başlamıyor' // :D
+// url.indexOf('https')=== 0 ? 'https ile başlıyor' : 'https ile başlamıyor' // :D
 
-str.indexOf('backend') === -1 ? 'yok' :  'var' // :D
+// str.indexOf('backend') === -1 ? 'yok' :  'var' // :D
 
-let arr1 = str.split(' ').join('-').toLocaleLowerCase()
-let arr2 = url.split(' ')
-let arr3 = arr2.concat(arr1)
+// let arr1 = str.split(' ').join('-').toLocaleLowerCase()
+// let arr2 = url.split(' ')
+// let arr3 = arr2.concat(arr1)
 
-arr3.join('') // :D
+// arr3.join('') // :D
+
+// let student = ["Ceyda","Selda","Melda"];
+
+// sonuc = student.length;
+
+// sonuc = student.toString();
+
+// sonuc = student.join(" ")
+
+// sonuc = student.pop() // son ögeyi siler
+
+// sonuc = student.shift() // ilk ögeyi döndürür
+
+// sonuc = student.push('Esra') // dizinin sonuna eleman ekler
+
+// sonuc = student.unshift('mehmet') // dizinin başına eleman ekler
