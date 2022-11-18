@@ -219,3 +219,57 @@
 // sonuc = student.push('Esra') // dizinin sonuna eleman ekler
 
 // sonuc = student.unshift('mehmet') // dizinin başına eleman ekler
+
+// let sipariş1 = {
+//   siparisId: 101,
+//   siparisTarihi: 'salı',
+//   ödemeSekli: 'kredi kartı',
+//   kargoAdresi: 'Sakarya',
+//   müsteri: {
+//     müsteriId: 12,
+//   },
+//   satici: {
+//     firmaId: 34,
+//     firmaAdi: 'Apple',
+//   },
+//   alinanÜrünler: {
+//     ürünId: 5,
+//     ürün: 'Iphone',
+//     ürünUrl: 'https/ıphone',
+//     ürünFiyatı: 25000,
+//   },
+// };
+
+// let sipariş2 = {
+//   siparisId: 101,
+//   siparisTarihi: 'salı',
+//   ödemeSekli: 'kredi kartı',
+//   kargoAdresi: 'Sakarya',
+//   müsteri: {
+//     müsteriId: 12,
+//   },
+//   satici: {
+//     firmaId: 34,
+//     firmaAdi: 'Apple',
+//   },
+//   alinanÜrünler: {
+//     ürünId: 5,
+//     ürün: 'Iphone 12',
+//     ürünUrl: 'https/ıphone',
+//     ürünFiyatı: 22000,
+//   },
+// };
+
+
+// let sprs2Kdv =((sipariş2.alinanÜrünler.ürünFiyatı)*18/100)
+
+// let sonuc2 = ((sipariş2.alinanÜrünler.ürünFiyatı)+ sprs2Kdv)
+
+// sonuc2
+
+
+// let sprs1Kdv =((sipariş1.alinanÜrünler.ürünFiyatı)*18/100)
+
+// let sonuc1 = ((sipariş1.alinanÜrünler.ürünFiyatı)+ sprs1Kdv)
+
+// sonuc1
