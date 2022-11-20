@@ -273,3 +273,5 @@
 // let sonuc1 = ((sipariş1.alinanÜrünler.ürünFiyatı)+ sprs1Kdv)
 
 // sonuc1
+
+
